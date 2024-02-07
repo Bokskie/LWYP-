@@ -1,0 +1,61 @@
+.lwyp-records
+{
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.lwyp-header
+{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 10px 0 20px 0;
+}
+.lwyp .records 
+{
+    border: 5px solid var(--tertiary-background);
+}
+.lwyp-records_margin 
+{
+    width: 1200px;
+    margin: auto;
+}
+.lwyp-records .records .record-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+.lwyp-records .records .record-header .team-header
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.lwyp-records .records .record
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.lwyp-records .records .record .lwyp-team-record, .lwyp-opponent-record
+{
+    background-color: var(--primary-background);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px){
+.lwyp-records
+{
+    width: 500px;
+}
+.lwyp-records_margin 
+{
+    width: 400px;
+}
+}

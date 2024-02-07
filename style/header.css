@@ -1,0 +1,70 @@
+header 
+{
+    background-color: var(--primary-background);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    color: var(--secondary-background);
+}
+/* this header is the parent of 2 division the header logo and navbar*/
+.header-top-margin
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+/*header logo branch name and image*/
+.header-logo
+{
+    background-color: var(--secondary-background);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo .logo-name
+{
+    color: #ffffff;
+}
+.header-logo img 
+{
+    border-radius: 3rem;
+}
+/*header navbar options*/
+.header-navbar
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color:var(--primary-background);
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+.header-navbar ul
+{
+    display: flex;
+    align-items: center;
+}
+.header-navbar ul li 
+{
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
+.header-navbar ul li a 
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-navbar ul li a:hover 
+{
+    border-bottom: 3px solid var(--secondary-background);
+}
+@media (max-width: 500px){
+header 
+{
+    width: 500px;
+}
+}

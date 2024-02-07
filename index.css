@@ -1,0 +1,20 @@
+@import './style/header.css';
+@import './style/player-stats.css';
+@import './style/home-page.css';
+@import './style/aboutUs.css';
+@import './style/records.css';
+@import './style/rankings.css';
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+:root 
+{
+    --primary-background: #282A35;
+    --secondary-background: #04AA6D;
+    --tertiary-background: #2e3140a8;
+}

@@ -1,0 +1,53 @@
+.player-stats
+{
+    padding: 20px 0 20px 0;
+}
+.ps-margin
+{
+    width: 1200px;
+    margin: auto;
+}
+.ps-header
+{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+.player-stats .lwyp-all-players
+{
+    border: 5px solid var(--tertiary-background);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.player-stats .lwyp-player
+{
+    padding: 20px;
+}
+.player-stats .lwyp-player .lwyp-player-info
+{
+    margin: auto;
+    border: 2px solid var(--tertiary-background);
+    width: 300px;
+    padding: 10px;
+}
+.player-stats .lwyp-player span 
+{
+    font-weight: 600;
+}
+
+@media (max-width: 500px){
+.ps-margin
+{
+    width: 400px;
+    margin: 0 50px 0 50px;
+}
+.player-stats .lwyp-all-players
+{
+    border: 5px solid var(--tertiary-background);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+}
